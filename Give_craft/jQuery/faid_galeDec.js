@@ -1,0 +1,80 @@
+// JavaScript Document
+$(document).ready(function(){
+	'use stric';
+	$('#uno').mouseenter(function(){
+		$('#ocultoUno').fadeIn('fast');
+	});
+	$('#uno').mouseleave(function(){
+		$('#ocultoUno').fadeOut('fast');
+	});
+	$('#dos').mouseenter(function(){
+		$('#ocultoDos').fadeIn('fast');				 
+	});
+	$('#dos').mouseleave(function(){
+		$('#ocultoDos').fadeOut('fas');
+	});
+	$('#tres').mouseenter(function(){
+		$('#ocultoTres').fadeIn('fast');
+	});
+	$('#tres').mouseleave(function(){
+		$('#ocultoTres').fadeOut('fast');
+	});
+	$('#cuatro').mouseenter(function(){
+		$('#ocultoCuatro').fadeIn('fast');
+	});
+	$('#cuatro').mouseleave(function(){
+		$('#ocultoCuatro').fadeOut('fast');
+	});
+	
+	
+	$('#uno2').mouseenter(function(){
+		$('#ocultoUno2').fadeIn('fast');
+	});
+	$('#uno2').mouseleave(function(){
+		$('#ocultoUno2').fadeOut('fast');
+	});
+	$('#dos2').mouseenter(function(){
+		$('#ocultoDos2').fadeIn('fast');			 
+	});
+	$('#dos2').mouseleave(function(){
+		$('#ocultoDos2').fadeOut('fas');
+	});
+	$('#tres2').mouseenter(function(){
+		$('#ocultoTres2').fadeIn('fast');
+	});
+	$('#tres2').mouseleave(function(){
+		$('#ocultoTres2').fadeOut('fast');
+	});
+	$('#cuatro2').mouseenter(function(){
+		$('#ocultoCuatro2').fadeIn('fast');
+	});
+	$('#cuatro2').mouseleave(function(){
+		$('#ocultoCuatro2').fadeOut('fast');
+	});
+	
+	
+	$('#uno3').mouseenter(function(){
+		$('#ocultoUno3').fadeIn('fast');
+	});
+	$('#uno3').mouseleave(function(){
+		$('#ocultoUno3').fadeOut('fast');
+	});
+	$('#dos3').mouseenter(function(){
+		$('#ocultoDos3').fadeIn('fast');			 
+	});
+	$('#dos3').mouseleave(function(){
+		$('#ocultoDos3').fadeOut('fas');
+	});
+	$('#tres3').mouseenter(function(){
+		$('#ocultoTres3').fadeIn('fast');
+	});
+	$('#tres3').mouseleave(function(){
+		$('#ocultoTres3').fadeOut('fast');
+	});
+	$('#cuatro3').mouseenter(function(){
+		$('#ocultoCuatro3').fadeIn('fast');
+	});
+	$('#cuatro3').mouseleave(function(){
+		$('#ocultoCuatro3').fadeOut('fast');
+	});
+});

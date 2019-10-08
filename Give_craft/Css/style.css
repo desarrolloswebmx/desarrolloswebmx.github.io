@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body,htm{
+	font-size: 16px;	
+}
+
+header{
+	display: flex;
+}
+
+nav{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 1.5em;
+}
+
+#logo{
+	width: 8%;
+	padding: 0;
+}
+#opMenu{
+	display:flex;
+	height: 5vh;
+	justify-content: flex-end;
+	border: .2em solid rgba(92,184,83,1.00);
+	align-self: center;
+	padding: .8em;
+	margin: 0;
+}
+
+#opMenu li{
+	text-align: center;
+	align-self: center;
+	list-style: none;
+	
+}
+
+a{
+	text-decoration: none;
+	color:rgba(94,169,77,1.00);
+	padding: 1em;
+}
+
+main{
+	padding: 1em;
+}
+
+#contenido{
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	color:rgba(94,169,77,1.00);
+}
+
+.secciones{
+	color:rgba(94,169,77,1.00);
+	font-size: 2em;
+	margin: 0;
+}
+
+#galeriaDec{
+	width: 100%;
+	padding: 1em;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#galeriaDec a{
+	flex: 1 20%;
+	width: 10em;
+	height: 10em;
+	padding: 0;
+	margin: 1em;
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	text-decoration: none;
+	border: .5em solid rgba(46,143,174,1.00);
+}
+
+#galeriaDec p{
+	text-align: center;
+	margin: 0;
+	width: 100%;
+	height: 9em;
+	padding: 1em;
+	line-height: 8em;
+	background-color: rgba(0,0,0,0.50);
+	display: none;
+}
+
+#uno{
+	background-image: url("../Imgs/Decoracion_Inicio/Changos.JPG")
+}
+#dos{
+	background-image: url("../Imgs/Decoracion_Inicio/Elefante_resina.JPG")
+}
+
+#tres{
+	background-image: url("../Imgs/Decoracion_Inicio/Perro_ceramica.JPG")
+}
+#cuatro{
+	background-image: url("../Imgs/Decoracion_Inicio/Buho_ceramica.JPG")
+}
+
+#galeriaArtP{
+	width: 100%;
+	padding: 1em;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#galeriaArtP a{
+	flex: 1 20%;
+	width: 10em;
+	height: 10em;
+	padding: 0;
+	margin: 1em;
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	text-decoration: none;
+	border: .5em solid rgba(46,143,174,1.00);
+}
+
+
+
+#galeriaArtP p{
+	text-align: center;
+	margin: 0;
+	width: 100%;
+	height: 9em;
+	padding: 1em;
+	line-height: 8em;
+	background-color: rgba(0,0,0,0.50);
+	display: none;
+}
+
+#uno2{
+	background-image: url("../Imgs/Articulos_personales/pulsera-con-puntos-verdes.JPG")
+}
+
+#dos2{
+	background-image: url("../Imgs/Articulos_personales/pulsera-negra.JPG")
+}
+
+#tres2{
+	background-image: url("../Imgs/Articulos_personales/Pulseras-colores.JPG")
+}
+#cuatro2{
+	background-image: url("../Imgs/Articulos_personales/pulsera dorada.JPG")
+}
+
+#galeriaPlantas{
+	width: 100%;
+	padding: 1em;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#galeriaPlantas a{
+	flex: 1 20%;
+	width: 10em;
+	height: 10em;
+	padding: 0;
+	margin: 1em;
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	text-decoration: none;
+	border: .5em solid rgba(46,143,174,1.00);
+}
+
+
+
+#galeriaPlantas p{
+	text-align: center;
+	margin: 0;
+	width: 100%;
+	height: 9em;
+	padding: 1em;
+	line-height: 8em;
+	background-color: rgba(0,0,0,0.50);
+	display: none;
+}
+
+#uno3{
+	background-image:url("../Imgs/Plantas/Planta-azul.JPG")
+}
+
+#dos3{
+	background-image:url("../Imgs/Plantas/Planta-roja.JPG")
+}
+
+#tres3{
+	background-image:url("../Imgs/Plantas/Planta-morada.JPG")
+}
+
+#cuatro3{
+	background-image:url("../Imgs/Plantas/Cactus.JPG")
+}
+
+#redes li{
+	list-style: none;
+}
