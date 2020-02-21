@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///Users/usuario/Desktop/Ejemplo_plantilla.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Material fílmico</title>
+<style>
+	.obligatorio{
+		color: rgba(210,41,44,1.00);
+	}	
+	.sistema{
+		background-color: rgba(178,210,233,1.00);
+	}
+</style></head>
+
+<body>
+<form>
+  <fieldset>
+  <label for="">Copias</label>
+  </fieldset>
+  <fieldset>
+  <label>Nota: Los campos marcados en rojo son indispensables</label>
+  </fieldset>
+  <fieldset>
+  <label class="obligatorio">Clave de película</label>
+  <input class="sistema" disabled="" type="number" min="0" max="1000" placeholder="Auto.">	
+  </fieldset>
+  <fieldset>
+	<label>Num. Copias</label>
+	<input>
+	<label class="obligatorio">Colocación</label>
+	<select>
+	  <option></option>
+	  <option>NLC</option>
+	  <option>NLB</option>
+	  <option>ELC</option>
+	  <option>ELB</option>
+	  <option>NTC</option>
+	  <option>NTB</option>
+	  <option>ETC</option>
+	  <option>ETB</option>
+	</select>
+	<select>
+	  <option></option>
+	  <option>C1</option>
+	  <option>C2</option>
+	  <option>C3</option>
+	  <option>C4</option>
+	  <option>C5</option>
+	  <option>C6</option>
+	  <option>C7</option>
+	  <option>C8</option>
+	</select>
+	<select>
+	  <option></option>
+	  <option>A</option>
+	  <option>B</option>
+	  <option>C</option>
+	  <option>D</option>
+	  <option>E</option>
+	  <option>F</option>
+	  <option>H</option>
+	</select>
+	<input type="number" min="1" max="10000">
+	<input type="number" min="1" max="10000">
+	<label>Num. de Rollos</label>
+	<input type="number" min="1" max="100">	
+	<br>
+	<br>
+	<label class="obligatorio">Tipo de copia</label>
+	<select>
+	  <option></option>
+	  <option>Largometraje</option>
+	  <option>Cortometraje</option>
+	  <option>Trailer</option>
+	</select>	
+	<label>Fotografía</label>
+	<select>
+	  <option></option>
+	  <option>Blanco y Negro</option>
+	  <option>Color</option>
+	  <option>Color / Blanco y Negro</option>
+	  <option>Otro</option>
+	  <option>Entintado</option>
+	  <option>Sepia</option>
+	  <option>Por determinar</option>
+	</select>
+	<label class="obligatorio">Procedencia</label>
+	<select>
+	  <option></option>
+	  <option>Adquisición</option>
+	  <option>Archivo Memoria</option>
+	  <option>Copiado</option>
+	  <option>Depósito Legal</option>
+	  <option>Desconocido</option>
+	  <option>Donación</option>
+	  <option>Otro</option>
+	</select>
+	<label class="obligatorio">De:</label>
+	<input>
+	<br>
+	<br>	
+	<select multiple="">
+	  <option>Alemán</option>
+	  <option>Belga</option>
+	  <option>Checoslovaco</option>
+	  <option>Chino</option>
+	  <option>Español</option>
+	  <option>Francés</option>
+	  <option>Inglés</option>
+	  <option>Ruso</option>
+	  <option>Portugués</option>
+	</select>
+	<label>Idioma</label>
+	<input>
+	<label>Subtítulos</label>
+	<input>
+	<label>Doblada</label>
+	<input>
+	<label>Narrada</label>
+	<input>
+	<label>Intertítulos</label>
+	<input>
+	<label>Otro</label>
+	<input>
+  </fieldset>
+  <fieldset>
+	<label>Soporte</label>
+	<select>
+	  <option></option>
+	  <option>Acetato</option>
+	  <option>Nitrato</option>
+	  <option>Poliéster</option>
+	  <option>Por determinar</option>
+	  <option>Desconocido</option>	
+	</select>
+	<label>Material</label>
+	<input>
+	<label>Formato</label>
+	<select>
+	  <option></option>
+	  <option>Positivo</option>
+	  <option>Negativo</option>
+	  <option>Interpositivo</option>
+	  <option>Internegativo</option>
+	  <option>Master</option>
+	</select>
+	<select>
+	  <option></option>
+	  <option>Copuesto</option>
+	  <option>Imagen</option>
+	  <option>Sonido</option>
+	</select>
+	<select>
+	  <option></option>
+	  <option>35 mm</option>
+	  <option>16 mm</option>
+	  <option>9.5 mm</option>
+	  <option>8 mm</option>
+	  <option>Súper 8</option>
+	</select>
+	  <br>
+	  <br>
+	<label for="">Mascarilla</label>
+	<input>
+	<label for="">Longitud</label>
+	<label for="">Pies</label>
+	  <input type="number" min="0" max="1000">
+	<label for="">Metros</label>
+	  <input type="number" class="sistema" placeholder="Auto." min="0" max="1000" disabled="">
+	<label for="">Duración</label>
+	  <input type="number" class="sistema" min="0" max="100" placeholder="Auto." disabled="">
+	<br>
+	<br>
+	<label for="">Sonido</label>
+	<select name="" id="">
+		<option value=""></option>
+		<option value="">Óptico</option>
+		<option value="">Magnético</option>
+		<option value="">Sin Sonido</option>
+		<option value="">Sin Valor</option>
+	</select>
+	<label for="">Tipo de Sonido</label>
+	<select>
+		<option value=""></option>
+		<option value="">Digital Stereo</option>
+		<option value="">Dolby</option>
+		<option value="">Dolby Stereo</option>
+		<option value="">Dolby Digital</option>
+		<option value="">DTS</option>
+		<option value="">DTS Stereo</option>
+		<option value="">Mono</option>
+		<option value="">Stereo</option>
+	</select>
+	<label for="">Estado de sonido</label>
+	<select name="" id="">
+		<option value=""></option>
+		<option value="">A</option>
+		<option value="">B</option>
+		<option value="">C</option>
+		<option value="">D</option>  
+	</select>
+	<br>
+	<br>
+	<label for="">Fecha de ingreso</label>
+	<input type="date">
+	<label for="">Estado de Ingreso</label>
+	<select>
+		<option value=""></option>
+		<option value="">A</option>
+		<option value="">B</option>
+		<option value="">C</option>
+		<option value="">D</option>
+	</select>
+	<label for="">Fecha de primera revisión</label>
+	<input type="date">
+	<label for="">Estado de primera revisión</label>
+	<select>
+		<option value=""></option>
+		<option value="">A</option>
+		<option value="">B</option>
+		<option value="">C</option>
+		<option value="">D</option>
+	  </select>
+	<label for="">Colección</label>
+	<input type="text">
+	<br>
+	<br>
+	<label for="">Fecha de rev. anual</label>
+	<input type="date">
+	<label for="">Revisó</label>
+	<input type="text">
+	<label for="">Créditos</label>
+	<input type="radio" name="creditos">
+	<label for="">si</label>
+	<input type="radio" name="creditos">
+	<label for="">No</label>
+  </fieldset>
+  <fieldset>
+	<label for="">Pietaje</label>
+	<table border="1">
+		<thead>
+			<tr><th colspan="2">Rollos</th>
+			<th>Rollo 1</th>
+			<th>Rollo 2</th>
+			<th>Rollo 3</th>
+			<th>Rollo 4</th>
+			<th>Rollo 5</th>
+			<th>Rollo 6</th>
+			<th>Rollo 7</th>
+			<th>Rollo 8</th>
+			<th>Rollo 9</th>
+			<th>Rollo 10</th>
+			<th>Rollo 11</th>
+			<th>Rollo 12</th>
+		</tr></thead>
+		<tbody>
+			<tr>
+				<th rowspan="2">Pies x Rollos</th>
+				<th>Imagen</th>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+			</tr>
+			<tr>
+				<th>Sonido</th>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+			</tr>
+			<tr>
+				<th rowspan="2">Pegaduras</th>
+				<th>Imagen</th>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+			</tr>
+			<tr>
+				<th>Sonido</th>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+				<td><input type="number" min="0" max="1000"></td>
+			</tr>
+		</tbody>
+	</table>
+  </fieldset>
+	<fieldset>
+		<label for="">Revisión de Mantenimiento</label>
+		<br>
+		<br>
+		<label for="">Estado de última revisión</label>
+		<select>
+		<option value=""></option>
+		<option value="">A</option>
+		<option value="">B</option>
+		<option value="">C</option>
+		<option value="">D</option>
+	  </select>
+		<label for="">Fecha de revisión</label>
+		<input type="date">
+		<label for="">Revisó</label>
+		<input type="text">
+		<br>
+		<br>
+		<table border="1">
+			<thead>
+				<tr><th>Rollos</th>
+				<th>Rollo 1</th>
+				<th>Rollo 2</th>
+				<th>Rollo 3</th>
+				<th>Rollo 4</th>
+				<th>Rollo 5</th>
+				<th>Rollo 6</th>
+				<th>Rollo 7</th>
+				<th>Rollo 8</th>
+				<th>Rollo 9</th>
+				<th>Rollo 10</th>
+				<th>Rollo 11</th>
+				<th>Rollo12</th>
+			</tr></thead>
+			<tbody>
+				<tr>
+					<th>Rayas superficiales en base</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Rayas regulares en base</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Rayas profundas en base</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Rayas superficiales en emulsión</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Rayas regulares en emulsión</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Rayas profundas en emulsión</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Perforaciones dañadas</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Roturas</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Deformación de soporte</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Desprendimiento de emulsión</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Degradación de color</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Marcas de descarrilamiento</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Daños en banda sonora</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Suciedad y manchas</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th>Acidez</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+			</tbody>
+		</table>
+		<label for="">observaciones</label>
+		<br>
+		<textarea name="" id="" cols="145" rows="5"></textarea>
+	</fieldset>
+	<fieldset>
+		<label for="">Revisión de Intervención Directa</label>
+		<br>
+		<br>
+		<label for="">Estado de última revisión</label>
+		<select>
+		<option value=""></option>
+		<option value="">A</option>
+		<option value="">B</option>
+		<option value="">C</option>
+		<option value="">D</option>
+	  </select>
+		<label for="">Fecha de revisión</label>
+		<input type="date">
+		<label for="">Revisó</label>
+		<input type="text">
+		<br>
+		<br>
+		<table border="1">
+			<thead>
+				<tr><th colspan="2">Rollos</th>
+				<th>Rollo 1</th>
+				<th>Rollo 2</th>
+				<th>Rollo 3</th>
+				<th>Rollo 4</th>
+				<th>Rollo 5</th>
+				<th>Rollo 6</th>
+				<th>Rollo 7</th>
+				<th>Rollo 8</th>
+				<th>Rollo 9</th>
+				<th>Rollo 10</th>
+				<th>Rollo 11</th>
+				<th>Rollo12</th>
+			</tr></thead>
+			<tbody>
+				<tr>
+					<th colspan="2">Reparación de pegaduras</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th colspan="2">Reparación de roturas</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th colspan="2">Reparación de perforaciones</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th colspan="2">Limpieza</th>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+						<td><input type="number" min="0" max="1000"></td>
+				</tr>
+				<tr>
+					<th rowspan="2">Digitalización<n></n></th>
+						<th>Imagen</th>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+				</tr>
+				<tr>
+					<th>Sonido</th>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+				</tr>
+			</tbody>
+		</table>
+		<label for="">observaciones</label>
+		<br>
+		<textarea name="" id="" cols="145" rows="5"></textarea>
+	</fieldset>
+	<fieldset>
+		<label for="">Fuente de Restauración</label>
+		<br>
+		<br>
+		<label for="">Estado de última rev.</label>
+		<select name="" id="">
+			<option value=""></option>
+			<option value="">A</option>
+			<option value="">B</option>
+			<option value="">C</option>
+			<option value="">D</option>
+		</select>
+		<label for="">Fecha de la última Mod.</label>
+		<input type="date">
+		<label for="">Revisó</label>
+		<input type="text">
+		<br>
+		<br>
+		<table border="1">
+			<thead>
+				<tr><th colspan="2">Rollos</th>
+				<th>Rollo 1</th>
+				<th>Rollo 2</th>
+				<th>Rollo 3</th>
+				<th>Rollo 4</th>
+				<th>Rollo 5</th>
+				<th>Rollo 6</th>
+				<th>Rollo 7</th>
+				<th>Rollo 8</th>
+				<th>Rollo 9</th>
+				<th>Rollo 10</th>
+				<th>Rollo 11</th>
+				<th>Rollo12</th>
+			</tr></thead>
+			<tbody>
+			<tr>
+					<th rowspan="2">Digitalización<n></n></th>
+						<th>Imagen</th>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+				</tr>
+				<tr>
+					<th>Sonido</th>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+						<td><select name="" id=""><option value=""></option><option value="">Si</option><option value="">No</option></select></td>
+				</tr>
+			</tbody>
+		</table>
+	</fieldset>
+	<fieldset>
+		<label for="">Última modificación:</label>
+		<button>Registrar</button>
+		<button>Cancelar</button>
+	</fieldset>
+  </form>
+
+</body></html>
